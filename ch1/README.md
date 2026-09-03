@@ -45,7 +45,7 @@ char ch = 'A';
 int in = 10;
 double db = 3.4;
 ```
-<img width="188" height="502" alt="image" src="https://github.com/user-attachments/assets/fd4c514f-2bd3-4517-bed5-5765f8b119d1" />
+<img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/fd4c514f-2bd3-4517-bed5-5765f8b119d1" />
 
 | 수식 | 결과값 | 결과값의 자료형 |
 | :--: | :----: | :-------------: |
@@ -83,18 +83,20 @@ double c = 3.141592;
 ```
 - c라는 실수형 변수를 선언하고 3.141592라는 값을 저장
 ```
-printf("char형 변수 a의 주소: %p \n", &a);
+printf("char형 변수 a의 주소: %x \n", &a);
 ```
-- a의 메모리 주소 &a를 출력
+- a의 메모리 주소 &a 16진수로 출력
 ```
-printf("int형 변수 b의 주소: %p \n", &b);
+printf("int형 변수 b의 주소: %x \n", &b);
 ```
-- b의 메모리 주소 &b를 출력
+- b의 메모리 주소 &b를 16진수로 출력
 ```
-printf("double형 변수 c의 주소: %p \n", &c);
+printf("double형 변수 c의 주소: %x \n", &c);
 ```
-- c의 메모리 주소 &c를 출력
+- c의 메모리 주소 &c를 16진수로 출력
 ```
 return 0;
 ```
-- 코드를 반환하며 프로그램을 종료한다.
+- 0을 반환하고 메인함수 정상 종료
+# 실행결과
+<img width="2216" height="744" alt="image" src="https://github.com/user-attachments/assets/40893787-8f0a-4a71-95a6-fb339e63f29e" />
