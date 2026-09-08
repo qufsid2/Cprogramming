@@ -1,12 +1,11 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
-#pragma warning(disable:6031)
-
 // ***********************************************
 //   제  목 : a, b, c를 주소연산자(&)를 이용하여 출력
 //   날  짜 : 2026년 9월 3일
 //   작성자 : 2600060 김혁중
 // ***********************************************
 
+#define _CRT_SECURE_NO_WARNINGS
+#pragma warning(disable:6031)
 #include <stdio.h>
 
 int main() {
