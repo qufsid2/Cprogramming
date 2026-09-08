@@ -10,15 +10,17 @@
 
 int main(void)
 {
-	int a = 100, b = 200;
-	int sum;
+	int a = -100;
+	char b = 'A';
+	double c = 3.14;
 
-	int* c = &a;
-	int* d = &b;
+	int* d = &a;
+	char* e = &b;
+	double* f = &c;
 
-	sum = *c + *d;
-
-	printf("두 정수의 합: %d\n", sum);
+	printf("int형 변수 a의 값은: %d\n", *d);
+	printf("char형 변수 b의 값은: %c\n", *e);
+	printf("double형 변수 c의 값은: %.2f\n", *f);
 
 	return 0;
 }
