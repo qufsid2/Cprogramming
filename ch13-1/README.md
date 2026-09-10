@@ -37,7 +37,7 @@ int main(void)
 ```
 int grade[5];
 ```
-- 5개의 방을 가진 grade라는 배열 선언
+- 5개의 방을 가진 정수형 grade 배열 선언
 ```
 int sum = 0, i, average;
 ```
@@ -93,9 +93,99 @@ int a[] = { 10, 20, 30 };
 int* p = &a;
 ```
 - a의 주소를 p에 저장
+```
+int i, sum = 0;
+```
+- i, sum이라는 변수를 선언하고 sum에 0을 저장
+```
+for (i = 0; i < 3; i++)
+  sum += *p++;
+```
+- 3번 반복
+- a의 값을 sum에 더하기
+```
+printf("sum:%d\n", sum);
+```
+- 총합 출력
+```
+return 0;
+```
+- 0을 반환하고 메인함수 정상 종료
+
 ▼ 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/7bfef66a-b0d6-42ff-b860-cef4acf861a8" />
 
 ----------
 ## 실습과제 4
 
+▼ 소스코드 설명
+```
+#include <stdio.h>
+```
+- scanf, printf, 등 여러가지 라이브러리가 들어있는 stdio.h를 포함해라.
+```
+int main(void)
+```
+- 메인함수 시작
+```
+double arr[5];
+```
+- 5개의 방을 가진 실수형 arr 배열 선언
+```
+double* ptr;
+```
+- ptr이라는 포인터 선언
+```
+int i;
+```
+- i라는 정수형 변수 선언
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+for (i = 0; i < 5; i++) {
+  printf("실수 입력: ");
+  scanf("%lf", ptr++);
+}
+```
+- 5번 반복
+- 실수 입력하라는 메시지 출력
+- 실수 입력
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+for (i = 0; i < 5; i++) {
+  *ptr += 2;
+  ptr++;
+}
+```
+- 5번 저장
+- 입력된 값에 +2
+- ptr = ptr + 1;
+```
+ptr = arr;
+```
+- arr의 주소를 ptr에 저장
+```
+printf("\n2씩 증가된 배열의 값:\n");
+```
+- ptr 값 출력 메시지 출력
+```
+for (i = 0; i < 5; i++)
+  printf("%.2f ", *ptr++);
+```
+- 5번 반복
+- ptr 값 출력
+```
+return 0;
+```
+- 0을 반환하고 메인함수 정상 종료
+
+▼ 실행결과
+<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/ce282550-7f75-4af5-93db-019bb548d4c8" />
+
+----------
+## 실습과제 5
