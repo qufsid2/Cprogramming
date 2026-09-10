@@ -15,7 +15,7 @@ int main() {
 
 	for (i = 0; i < 5; i++) {
 		printf("성적을 입력하시오: ");
-		scanf("%d", &grade[i]);
+		scanf("%d", (grade + i));
 		sum += *(grade + i);
 	}
 
