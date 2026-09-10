@@ -10,10 +10,14 @@
 #include <stdio.h>
 
 int main() {
-	int a[] = { 10, 20, 30 }, i, sum = 0;
-	for (i = 0; i < 3; i++)
-		sum += *(a + i);
+	int a[] = {10, 20, 30};
+    int *p = a;
+    int i, sum = 0;
 
-	printf("sum:%d\n", sum);
-	return 0;
+    for (i = 0; i < 3; i++)
+        sum += *p++;
+
+    printf("sum:%d\n", sum);
+
+    return 0;
 }
