@@ -340,7 +340,7 @@ for (i = 0; i < 5; i++)
 ```
 return 0;
 ```
-- 0을 반환하고 메인함수 정상 종료\
+- 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/0e7e5c19-124c-4bf8-967b-33e21985b13f" />
