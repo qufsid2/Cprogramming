@@ -10,7 +10,6 @@
 #include <stdio.h>
 
 int main(void) {
-	int i = 0;
 	char a[100];
 	char *b = a;
 
