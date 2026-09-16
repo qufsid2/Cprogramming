@@ -12,17 +12,18 @@
 int main(void) {
 	int i = 0;
 	char a[100];
+	char *b = a;
 
 	printf("문자열을 입력하시오: ");
 	scanf("%s", a);
 
-	while (a[i] != '\0') {
-		if (a[i] >= 'A' && a[i] <= 'Z')
-			a[i] += ('a' - 'A');
-		else if (a[i] >= 'a' && a[i] <= 'z')
-			a[i] -= ('a' - 'A');
+	while (*b != '\0') {
+		if (*b >= 'A' && *b <= 'Z')
+			*b += ('a' - 'A');
+		else if (*b >= 'a' && *b <= 'z')
+			*b -= ('a' - 'A');
 
-		i++;
+		b++;
 	}
 
 	printf("변환 결과: %s \n", a);
