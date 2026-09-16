@@ -10,19 +10,22 @@
 #include <stdio.h>
 
 int main(void) {
-	int i = 0;
-	char a[100], b[100];
+	char* a[2];
+	char b[100], c[100];
+
+	a[0] = b;
+	a[1] = c;
 
 	printf("문자열을 입력하시오: ");
-	scanf("%s", a);
+	scanf("%s", a[0]);
 
 	printf("문자열을 입력하시오: ");
-	scanf("%s", b);
+	scanf("%s", a[1]);
 
-	if (a[0] < b[0])
-		printf("사전에서 앞에 나오는 문자열: %s \n", a);
-	else if (a[0] > b[0])
-		printf("사전에서 앞에 나오는 문자열: %s \n", b);
+	if (a[0][0] < a[1][0])
+		printf("사전에서 앞에 나오는 문자열: %s \n", a[0]);
+	else if (a[0][0] > a[1][0])
+		printf("사전에서 앞에 나오는 문자열: %s \n", a[1]);
 
 	return 0;
 }
