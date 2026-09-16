@@ -12,12 +12,14 @@
 int main(void) {
 	int i = 0;
 	char a[100];
+	char *b = a;
 
 	printf("문자열을 입력하시오: ");
 	scanf("%s", a);
 
-	while (a[i] != '\0') {
-		printf("%d번째 문자 %c \n", i + 1, a[i]);
+	while (*b != '\0') {
+		printf("%d번째 문자 %c \n", i + 1, *b);
+		b++;
 		i++;
 	}
 
