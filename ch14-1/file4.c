@@ -1,4 +1,10 @@
-﻿#define _CRT_SECURE_NO_WARNINGS
+﻿// **********************************************************
+//   제  목  :  Call-by-value와 Call-by-reference를 이용해 값 구하
+//   날  짜  :  2026년 9월 22일
+//   작성자  :  2600060 김혁중
+// **********************************************************
+
+#define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable:6031)
 
 #include <stdio.h>
