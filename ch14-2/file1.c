@@ -30,8 +30,8 @@ int get_max(int* array, int n) {
 	max = *array;
 
 	for (i = 1; i < n; i++)
-		if (*array > max)
-			max = *array;
+		if (*(array + i) > max)
+			max = *(array + i);
 
 	return max;
 }
