@@ -66,12 +66,12 @@ max = *array;
 - max에 array가 가리키는 변수의 값 넣기
 ```
 for (i = 1; i < n; i++)
-  if (*array > max)
-    max = *array;
+  if (*(array + i) > max)
+    max = *(array + i);
 ```
 - n번 반복
-- array가 가리키는 변수의 값이 max 보다 크면
-- max에 array가 가리키는 변수의 값 넣기
+- array + i가 가리키는 변수의 값이 max 보다 크면
+- max에 array + i가 가리키는 변수의 값 넣기
 ```
 return max;
 ```
