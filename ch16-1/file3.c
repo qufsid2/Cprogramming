@@ -18,8 +18,8 @@ int main(void) {
 		for (int j = 0; j < 3; j++)
 			if (x1[i][j] > max) {
 				max = x1[i][j];
-				column = i + 1;
-				row = j + 1;
+				row = i + 1;
+				column = j + 1;
 			}
 
 	printf("최댓값은 %d \n", max);
