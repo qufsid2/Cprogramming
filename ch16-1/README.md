@@ -157,7 +157,7 @@ return 0;
 ```
 - 0을 반환하고 메인함수 정상 종료
 
-▼ 실행결과 (행이 가로, 열이 세로이므로 3행 2열이 옳은 답)
+▼ 실행결과
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/a7a401d1-754a-4e69-8913-bc7d01418796" />
 
 ----------
