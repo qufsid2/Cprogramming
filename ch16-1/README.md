@@ -134,16 +134,16 @@ for (int i = 0; i < 3; i++)
 	for (int j = 0; j < 3; j++)
 		if (x1[i][j] > max) {
 			max = x1[i][j];
-			row = i + 1;
-			column = j + 1;
+			column = i + 1;
+			row = j + 1;
 		}
 ```
 - i 선언 및 0 저장 후 3보다 작으면 반복
 - j 선언 및 0 저장 후 3보다 작으면 반복
 - x1가 max보다 클 때
 - max에 x1 저장
-- row에 i + 1 저장
-- column에 j + 1 저장
+- column에 i + 1 저장
+- row에 j + 1 저장
 ```
 printf("최댓값은 %d \n", max);
 ```
@@ -157,7 +157,7 @@ return 0;
 ```
 - 0을 반환하고 메인함수 정상 종료
 
-▼ 실행결과
+▼ 실행결과 (행이 가로, 열이 세로이므로 3행 2열이 옳은 답)
 <img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/a7a401d1-754a-4e69-8913-bc7d01418796" />
 
 ----------
