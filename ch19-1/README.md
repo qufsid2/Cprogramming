@@ -1,4 +1,4 @@
-<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/06ca34fd-57e7-4271-b6c7-469b3df21ab0" /># Chapter 19-1
+# Chapter 19-1
 ## 실습과제 1
 
 * 선언은 함수가 사용할 매개변수와 반환 타입(자료형)을 명시, 정의는 함수가 실제로 수행할 작업을 명시, 호출은 매개변수를 전달하고 함수가 반환하는 결과값을 저장
