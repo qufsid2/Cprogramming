@@ -14,7 +14,7 @@
 ```
 #include <stdio.h>
 ```
-- scanf, printf, 등 여러가지 함가 들어있는 stdio.h를 포함해라.
+- scanf, printf, 등 여러가지 함수가 들어있는 stdio.h를 포함해라.
 ```
 int main(void)
 ```
@@ -62,7 +62,7 @@ return 0;
 ```
 #include <stdio.h>
 ```
-- scanf, printf, 등 여러가지 함가 들어있는 stdio.h를 포함해라.
+- scanf, printf, 등 여러가지 함수가 들어있는 stdio.h를 포함해라.
 ```
 int main(void)
 ```
@@ -127,7 +127,7 @@ return 0;
 ```
 #include <stdio.h>
 ```
-- scanf, printf, 등 여러가지 함가 들어있는 stdio.h를 포함해라.
+- scanf, printf, 등 여러가지 함수가 들어있는 stdio.h를 포함해라.
 ```
 int main(void)
 ```
