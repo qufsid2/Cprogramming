@@ -1,0 +1,24 @@
+struct model {
+	char name[10];
+	char number[100];
+	int meter;
+};
+
+int main(void) {
+	struct model m;
+
+	printf("모델을 입력하시오: ");
+	scanf("%s", m.name);
+
+	printf("번호판을 입력하시오: ");
+	scanf("%s", m.number);
+
+	printf("주행거리를 입력하시오: ");
+	scanf("%d", &m.meter);
+
+	printf("\n1.모델: %s \n", m.name);
+	printf("2.번호판: %s \n", m.number);
+	printf("3.주행거리: %d km \n", m.meter);
+
+	return 0;
+}
