@@ -8,7 +8,6 @@
 #pragma warning(disable:6031);
 
 #include <stdio.h>
-#include <string.h>
 
 struct point {
 	int x;
