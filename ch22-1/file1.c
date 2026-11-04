@@ -7,7 +7,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #pragma warning(disable: 6031);
 
-#include <string.h>
 #include <stdio.h>
 
 struct student {
