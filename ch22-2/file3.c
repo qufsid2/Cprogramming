@@ -18,10 +18,6 @@ struct student {
 int main(void) {
 	struct student s[3];
 	struct student* p = &s;
-
-	printf("%p %p \n", (void*)&p, (void*)(&p + 1));
-	printf("%p %p \n", (void*)&p->score, (void*)(&p->score + 1));
-
 	int ms;
 	char mn[10];
 
