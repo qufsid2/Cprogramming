@@ -17,7 +17,7 @@ struct student {
 
 int main(void) {
 	struct student s[3];
-	struct student* p = &s;
+	struct student* p = s;
 	int ms;
 	char mn[10];
 
