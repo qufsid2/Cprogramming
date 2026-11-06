@@ -170,7 +170,7 @@ struct student s[3];
 ```
 - 구조체 배열 s[3] 선언
 ```
-struct student* p = &s;
+struct student* p = s;
 ```
 - 구조체 포인터 p 선언 및 s 주소 저장
 ```
