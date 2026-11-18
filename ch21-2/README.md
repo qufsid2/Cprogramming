@@ -44,7 +44,7 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
-<img width="2350" height="1140" alt="image" src="https://github.com/user-attachments/assets/44f87591-efec-4840-8f6f-1e1bb9169f8f" />
+<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/f01447f2-dad5-4e6f-8bef-9d652a443957" />
 
 ----------
 ## 실습과제 3
@@ -105,7 +105,7 @@ return 0;
 - 0을 반환하고 메인함수 정상 종료
 
 ▼ 실행결과
-<img width="1904" height="726" alt="image" src="https://github.com/user-attachments/assets/62c8d21a-cb97-470c-9b11-62858f0ca652" />
+<img width="2350" height="1226" alt="image" src="https://github.com/user-attachments/assets/33f95f95-eaec-4cc7-bca9-4f604b7e171a" />
 
 ----------
 ## 실습과제 4
